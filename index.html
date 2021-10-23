@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <meta name="theme-color" content="#fafafa">
+</head>
+<body>
+    <header class="path">
+        <div class="wrap">
+            <nav class="menu">
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Каталог товаров</a></li>
+                    <li><a href="#" class="current">Воздушные шары</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="content">
+        <div class="wrap __column">
+            <h1 class="title">Каталог шариков</h1>
+            <div class="filter flex __between __blue">
+                <div class="color flex __center">
+                    <span>Цвет: </span>
+                    <div class="list flex __center">
+                        <label class="container" id="red">
+                            <input type="radio" name="red">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container" id="black">
+                            <input type="radio" name="black" checked>
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container"  id="olive">
+                            <input type="radio" name="olive">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container" id="white">
+                            <input type="radio" name="white">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container" id="green">
+                            <input type="radio" name="green" >
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container" id="pink">
+                            <input type="radio" name="pink" >
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container" id="brown">
+                            <input type="radio" name="brown" >
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+                </div>
+                <div class="delimeter"></div>
+                <div class="checkbox flex __center">
+                    <label class="container">Все шары
+                        <input type="checkbox" name="all" id="all">
+                        <span class="checkmark"></span>
+                    </label>
+
+                    <label class="container">Комплекты
+                        <input type="checkbox" name="complect" id="complect" checked>
+                        <span class="checkmark"></span>
+                    </label>
+
+                    <label class="container">По одному
+                        <input type="checkbox" name="alone" id="alone">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div class="delimeter"></div>
+                <div class="sortItems flex">
+                    <div class="byPrice flex __center">
+                        <span>Сортировать по:</span>
+                        <a href="#price">Цене</a>
+                        <a href="#up" class="up"></a>
+                        <a href="#down" class="down"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="products flex">
+                <div class="item flex __column">
+                    <picture>
+                        <img src="img/item1.png" alt="item">
+                    </picture>
+                    <div class="product-title">
+                        <a href="#">Шары «Звезды и Кометы»</a>
+                    </div>
+                    <div class="product-disc">
+                        Фигуры, латексный, полупрозрачный,  средний, красный
+                    </div>
+                    <div class="product-price flex __column">
+                        <div><strong>75 Р</strong> <i>/</i> <span>шт</span></div>
+                        <div class="old"><span>90 P</span></div>
+                    </div>
+                    <div class="buy-wrap flex __center">
+                        <div class="num">
+                            <input type="number" name="count" value="200">
+                            <span>шт</span>
+                        </div>
+                        <div class="count_buttons">
+                            <a href="#" class="button plus"></a>
+                            <a href="#" class="button minus"></a>
+                        </div>
+                        <a href="#" class="buy-button"></a>
+                    </div>
+                </div>
+                <div class="item flex __column">
+                    <picture>
+                        <img src="img/item1.png" alt="item">
+                    </picture>
+                    <div class="product-title">
+                        <a href="#">Шары «Звезды и Кометы» fffffff ffffff</a>
+                    </div>
+                    <div class="product-disc">
+                        Фигуры, латексный, полупрозрачный,  средний, красный fffffffff fffffff fffffffff fffffffffff fffffffffffff fffffff
+                    </div>
+                    <div class="product-price flex __column">
+                        <div><strong>75 Р</strong> <i>/</i> <span>шт</span></div>
+                        <div class="old"><span>90 P</span></div>
+                    </div>
+                    <div class="buy-wrap flex __center">
+                        <div class="num">
+                            <input type="number" name="count" value="200">
+                            <span>шт</span>
+                        </div>
+                        <div class="count_buttons">
+                            <a href="#" class="button plus"></a>
+                            <a href="#" class="button minus"></a>
+                        </div>
+                        <a href="#" class="buy-button"></a>
+                    </div>
+                </div>
+                <div class="item flex __column">
+                    <picture>
+                        <img src="img/item1.png" alt="item">
+                    </picture>
+                    <div class="product-title">
+                        <a href="#">Шары «Звезды и Кометы» fffffff ffffff</a>
+                    </div>
+                    <div class="product-disc">
+                        Фигуры, латексный, полупрозрачный,  средний, красный fffffffff fffffff fffffffff fffffffffff fffffffffffff fffffff
+                    </div>
+                    <div class="product-price flex __column">
+                        <div><strong>75 Р</strong> <i>/</i> <span>шт</span></div>
+                        <div class="old"><span>90 P</span></div>
+                    </div>
+                    <div class="buy-wrap flex __center">
+                        <div class="num">
+                            <input type="number" name="count" value="200">
+                            <span>шт</span>
+                        </div>
+                        <div class="count_buttons">
+                            <a href="#" class="button plus"></a>
+                            <a href="#" class="button minus"></a>
+                        </div>
+                        <a href="#" class="buy-button"></a>
+                    </div>
+                </div>
+                <div class="item flex __column">
+                    <picture>
+                        <img src="img/item1.png" alt="item">
+                    </picture>
+                    <div class="product-title">
+                        <a href="#">Шары «Звезды</a>
+                    </div>
+                    <div class="product-disc">
+                        Фигуры, латексный, полупрозрачный,  средний, красный fffffffff fffffff fffffffff fffffffffff fffffffffffff fffffff
+                    </div>
+                    <div class="product-price flex __column">
+                        <div><strong>75 Р</strong> <i>/</i> <span>шт</span></div>
+                        <div class="old"><span>90 P</span></div>
+                    </div>
+                    <div class="buy-wrap flex __center">
+                        <div class="num">
+                            <input type="number" name="count" value="200">
+                            <span>шт</span>
+                        </div>
+                        <div class="count_buttons">
+                            <a href="#" class="button plus"></a>
+                            <a href="#" class="button minus"></a>
+                        </div>
+                        <a href="#" class="buy-button"></a>
+                    </div>
+                </div>
+                <div class="item flex __column">
+                    <picture>
+                        <img src="img/item1.png" alt="item">
+                    </picture>
+                    <div class="product-title">
+                        <a href="#">Шары «Звезды и Кометы» fffffff ffffff</a>
+                    </div>
+                    <div class="product-disc">
+                        Фигуры, латексный,
+                    </div>
+                    <div class="product-price flex __column">
+                        <div><strong>75 Р</strong> <i>/</i> <span>шт</span></div>
+                        <div class="old"><span>90 P</span></div>
+                    </div>
+                    <div class="buy-wrap flex __center">
+                        <div class="num">
+                            <input type="number" name="count" value="200">
+                            <span>шт</span>
+                        </div>
+                        <div class="count_buttons">
+                            <a href="#" class="button plus"></a>
+                            <a href="#" class="button minus"></a>
+                        </div>
+                        <a href="#" class="buy-button"></a>
+                    </div>
+                </div>
+                <div class="item flex __column">
+                    <picture>
+                        <img src="img/item1.png" alt="item">
+                    </picture>
+                    <div class="product-title">
+                        <a href="#">Шары «Звезды и Кометы» fffffff ffffff</a>
+                    </div>
+                    <div class="product-disc">
+                        Фигуры, латексный, полупрозрачный,  средний, красный fffffffff fffffff fffffffff fffffffffff fffffffffffff fffffff
+                    </div>
+                    <div class="product-price flex __column">
+                        <div><strong>75 Р</strong> <i>/</i> <span>шт</span></div>
+                        <div class="old"><span>90 P</span></div>
+                    </div>
+                    <div class="buy-wrap flex __center">
+                        <div class="num">
+                            <input type="number" name="count" value="200">
+                            <span>шт</span>
+                        </div>
+                        <div class="count_buttons">
+                            <a href="#" class="button plus"></a>
+                            <a href="#" class="button minus"></a>
+                        </div>
+                        <a href="#" class="buy-button"></a>
+                    </div>
+                </div>
+                <div class="item flex __column">
+                    <picture>
+                        <img src="img/item1.png" alt="item">
+                    </picture>
+                    <div class="product-title">
+                        <a href="#">Шары «Звезды и Кометы»</a>
+                    </div>
+                    <div class="product-disc">
+                        Фигуры, латексный, полупрозрачный,  средний, красный
+                    </div>
+                    <div class="product-price flex __column">
+                        <div><strong>75 Р</strong> <i>/</i> <span>шт</span></div>
+                        <div class="old"><span>90 P</span></div>
+                    </div>
+                    <div class="buy-wrap flex __center">
+                        <div class="num">
+                            <input type="number" name="count" value="200">
+                            <span>шт</span>
+                        </div>
+                        <div class="count_buttons">
+                            <a href="#" class="button plus"></a>
+                            <a href="#" class="button minus"></a>
+                        </div>
+                        <a href="#" class="buy-button"></a>
+                    </div>
+                </div>
+                <div class="item flex __column">
+                    <picture>
+                        <img src="img/item1.png" alt="item">
+                    </picture>
+                    <div class="product-title">
+                        <a href="#">Шары «Звезды и Кометы» fffffff ffffff</a>
+                    </div>
+                    <div class="product-disc">
+                        Фигуры, латексный, полупрозрачный,  средний, красный fffffffff fffffff fffffffff fffffffffff fffffffffffff fffffff
+                    </div>
+                    <div class="product-price flex __column">
+                        <div><strong>75 Р</strong> <i>/</i> <span>шт</span></div>
+                        <div class="old"><span>90 P</span></div>
+                    </div>
+                    <div class="buy-wrap flex __center">
+                        <div class="num">
+                            <input type="number" name="count" value="200">
+                            <span>шт</span>
+                        </div>
+                        <div class="count_buttons">
+                            <a href="#" class="button plus"></a>
+                            <a href="#" class="button minus"></a>
+                        </div>
+                        <a href="#" class="buy-button"></a>
+                    </div>
+                </div>
+                <div class="item flex __column">
+                    <picture>
+                        <img src="img/item1.png" alt="item">
+                    </picture>
+                    <div class="product-title">
+                        <a href="#">Шары «Звезды и Кометы» fffffff ffffff</a>
+                    </div>
+                    <div class="product-disc">
+                        Фигуры, латексный, полупрозрачный,  средний, красный fffffffff fffffff fffffffff fffffffffff fffffffffffff fffffff
+                    </div>
+                    <div class="product-price flex __column">
+                        <div><strong>75 Р</strong> <i>/</i> <span>шт</span></div>
+                        <div class="old"><span>90 P</span></div>
+                    </div>
+                    <div class="buy-wrap flex __center">
+                        <div class="num">
+                            <input type="number" name="count" value="200">
+                            <span>шт</span>
+                        </div>
+                        <div class="count_buttons">
+                            <a href="#" class="button plus"></a>
+                            <a href="#" class="button minus"></a>
+                        </div>
+                        <a href="#" class="buy-button"></a>
+                    </div>
+                </div>
+                <div class="item flex __column">
+                    <picture>
+                        <img src="img/item1.png" alt="item">
+                    </picture>
+                    <div class="product-title">
+                        <a href="#">Шары «Звезды</a>
+                    </div>
+                    <div class="product-disc">
+                        Фигуры, латексный, полупрозрачный,  средний, красный fffffffff fffffff fffffffff fffffffffff fffffffffffff fffffff
+                    </div>
+                    <div class="product-price flex __column">
+                        <div><strong>75 Р</strong> <i>/</i> <span>шт</span></div>
+                        <div class="old"><span>90 P</span></div>
+                    </div>
+                    <div class="buy-wrap flex __center">
+                        <div class="num">
+                            <input type="number" name="count" value="200">
+                            <span>шт</span>
+                        </div>
+                        <div class="count_buttons">
+                            <a href="#" class="button plus"></a>
+                            <a href="#" class="button minus"></a>
+                        </div>
+                        <a href="#" class="buy-button"></a>
+                    </div>
+                </div>
+                <div class="item flex __column">
+                    <picture>
+                        <img src="img/item1.png" alt="item">
+                    </picture>
+                    <div class="product-title">
+                        <a href="#">Шары «Звезды и Кометы» fffffff ffffff</a>
+                    </div>
+                    <div class="product-disc">
+                        Фигуры, латексный,
+                    </div>
+                    <div class="product-price flex __column">
+                        <div><strong>75 Р</strong> <i>/</i> <span>шт</span></div>
+                        <div class="old"><span>90 P</span></div>
+                    </div>
+                    <div class="buy-wrap flex __center">
+                        <div class="num">
+                            <input type="number" name="count" value="200">
+                            <span>шт</span>
+                        </div>
+                        <div class="count_buttons">
+                            <a href="#" class="button plus"></a>
+                            <a href="#" class="button minus"></a>
+                        </div>
+                        <a href="#" class="buy-button"></a>
+                    </div>
+                </div>
+                <div class="item flex __column">
+                    <picture>
+                        <img src="img/item1.png" alt="item">
+                    </picture>
+                    <div class="product-title">
+                        <a href="#">Шары «Звезды и Кометы» fffffff ffffff</a>
+                    </div>
+                    <div class="product-disc">
+                        Фигуры, латексный, полупрозрачный,  средний, красный fffffffff fffffff fffffffff fffffffffff fffffffffffff fffffff
+                    </div>
+                    <div class="product-price flex __column">
+                        <div><strong>75 Р</strong> <i>/</i> <span>шт</span></div>
+                        <div class="old"><span>90 P</span></div>
+                    </div>
+                    <div class="buy-wrap flex __center">
+                        <div class="num">
+                            <input type="number" name="count" value="200">
+                            <span>шт</span>
+                        </div>
+                        <div class="count_buttons">
+                            <a href="#" class="button plus"></a>
+                            <a href="#" class="button minus"></a>
+                        </div>
+                        <a href="#" class="buy-button"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="pagination">
+        <div class="wrap __between __blue">
+            <div>
+                <strong><</strong>
+                <a href="#" class="prev"> Назад</a>
+            </div>
+            
+            <div class="pages flex">
+                <a href="#1">1</a>
+                <a href="#2">2</a>
+                <a href="#3" class="active">3</a>
+                <a href="#4">4</a>
+                <a href="#">...</a>
+                <a href="#5">5</a>
+                <a href="#6">6</a>
+                <a href="#7">7</a>
+                <a href="#8">8</a>
+            </div>
+            <div>
+                <a href="#" class="next">Далее </a>
+                <strong>></strong>
+            </div>
+            
+        </div>
+    </footer>
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.bundle.js"></script>
+</body>
+</html>

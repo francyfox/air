@@ -42,7 +42,6 @@ function setRowAutoHeight() {
       products[index].children[CHILD_INDEX].style.height = `${maxHeight}px`;
 
       if (index % rowCount === 1 && index !== 1) {
-        console.log(index);
         maxHeight = 0;
       }
     }
